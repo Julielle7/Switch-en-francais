@@ -1,0 +1,28 @@
+var monJour = prompt ("Jour préféré (Lu, Ma, Me, Je, Ve, Sa, Di):");
+var vResponse;
+
+switch (monJour) {
+    case "Lu":
+     vReponse = "Le lundi dans la lune";
+     break;
+    case "Ma":
+     vReponse = "Mardi, c'est Mercure";
+     break;
+    case "Me":
+     vReponse = "Jupiter et sa cuisse !";
+     break;
+    case "Ve":
+     vReponse = "Ah, Vénus...";
+     break;
+    case "Sa":
+     vReponse = "Saturne rond ?"'
+     break;
+    case "Di":
+     vReponse = "Magasins ouverts ou pas?";
+     break;
+    default:
+     vReponse = "Drôle de calendrier !";
+     break;
+    
+}
+alert(vReponse);
