@@ -15,7 +15,7 @@ switch (monJour) {
      vReponse = "Ah, Vénus...";
      break;
     case "Sa":
-     vReponse = "Saturne rond ?"'
+     vReponse = "Saturne rond ?"
      break;
     case "Di":
      vReponse = "Magasins ouverts ou pas?";
